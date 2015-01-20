@@ -27,23 +27,12 @@ public class D implements A {
     }
 
     public boolean equals(Object o) {
-        if (this == o) return true;
-
-        if (!(o instanceof A)) return false;
-
-        if (o instanceof D) {
-            return a.equals(((D)o).a);
-        }
-
-        if (o.getClass() == a.getClass()) {
-            return o.equals(a);
-        }
-
-        return a.equals(o);
+//        return a.equals(o);
+        return o.equals(a);
     }
 
     public int hashCode() {
-        return a != null ? a.hashCode() : 0;
+        return a.hashCode();
     }
 
 }

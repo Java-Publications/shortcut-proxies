@@ -26,11 +26,7 @@ public class Proxies {
         return clazz.cast(Proxy.newProxyInstance(
                 clazz.getClassLoader(),
                 new Class<?>[] {clazz},
-                new InvocationHandler() {
-                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                        return method.invoke(p, args);
-                    }
-                }
+                (proxy, method, args) -> method.invoke(p, args)
         ));
     }
 }

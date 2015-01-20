@@ -14,7 +14,7 @@
  *   limitations under the License.
  */
 
-package org.rapidpm.demo.entwicklerpress.shortcut.proxies.chap10.chap10_1;
+package org.rapidpm.demo.entwicklerpress.shortcut.proxies.chap09.chap09_1;
 
 /**
  * Created by Sven Ruppert on 18.12.2014.

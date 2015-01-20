@@ -31,7 +31,8 @@ public final class C implements A {
     }
 
     public boolean equals(Object o) {
-        return a.equals(o);
+//        return a.equals(o);
+        return o.equals(a);
     }
 
     public int hashCode() {

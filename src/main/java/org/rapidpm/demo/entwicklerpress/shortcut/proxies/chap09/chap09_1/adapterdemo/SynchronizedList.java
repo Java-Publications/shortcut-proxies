@@ -14,7 +14,7 @@
  *   limitations under the License.
  */
 
-package org.rapidpm.demo.entwicklerpress.shortcut.proxies.chap10.chap10_1.adapterdemo;
+package org.rapidpm.demo.entwicklerpress.shortcut.proxies.chap09.chap09_1.adapterdemo;
 
 import java.util.*;
 import java.util.function.Consumer;
